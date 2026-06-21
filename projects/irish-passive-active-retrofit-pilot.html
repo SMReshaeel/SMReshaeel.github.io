@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Irish Passive-Active Retrofit Optimisation Pilot by Muhammad Reshaeel: a technical proof-of-work for integrated passive retrofit, heat-pump readiness and EnergyPlus-ready validation.">
+  <meta name="theme-color" content="#f7f8f5">
+  <title>Irish Passive-Active Retrofit Optimisation Pilot | Muhammad Reshaeel, PhD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="../style.css" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="../index.html#home" aria-label="Muhammad Reshaeel home">
+        <span class="brand-mark">MR</span>
+        <span class="brand-copy">
+          <strong>Muhammad Reshaeel, PhD</strong>
+          <span>Mechanical Engineering</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation" data-nav-toggle>
+        Menu
+      </button>
+      <nav class="site-nav" data-site-nav>
+        <ul>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#research">Research</a></li>
+          <li><a href="../index.html#publications">Publications</a></li>
+          <li><a href="../index.html#projects">Projects</a></li>
+          <li><a href="../index.html#experience">Experience</a></li>
+          <li><a href="../index.html#honors">Honors</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="project-detail-hero">
+      <div class="container project-detail-layout">
+        <div class="project-detail-copy" data-reveal>
+          <span class="eyebrow">Technical project report</span>
+          <h1>Irish Passive-Active Retrofit Optimisation Pilot</h1>
+          <p class="lead">
+            A screening workflow for integrated passive retrofit and heat-pump decision support for a representative
+            Irish semi-detached dwelling.
+          </p>
+          <div class="button-row">
+            <a class="btn primary" href="../assets/projects/irish-passive-active-retrofit-pilot/Irish_Passive_Active_Retrofit_Pilot_Technical_Report.docx" target="_blank" rel="noopener">Download Technical Report</a>
+            <a class="btn" href="../index.html#projects">Back to Projects</a>
+          </div>
+        </div>
+        <aside class="project-detail-card card" data-reveal>
+          <span class="panel-kicker">Pilot result</span>
+          <dl class="project-fact-list">
+            <div>
+              <dt>Packages evaluated</dt>
+              <dd>46,656</dd>
+            </div>
+            <div>
+              <dt>Pareto-efficient packages</dt>
+              <dd>453</dd>
+            </div>
+            <div>
+              <dt>Core dwelling type</dt>
+              <dd>Representative Irish semi-detached archetype</dd>
+            </div>
+            <div>
+              <dt>Validation route</dt>
+              <dd>EnergyPlus-ready IDF export for selected Pareto cases</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container report-grid">
+        <article class="card report-panel" data-reveal>
+          <span class="eyebrow">Purpose</span>
+          <h2>Why the pilot was developed</h2>
+          <p>
+            Irish retrofit decisions are often framed around BER improvement, fabric upgrades and heat-pump readiness.
+            This pilot shows how passive envelope measures and heat-pump design variables can be assessed together
+            so that cost, emissions, comfort risk and heat-pump operating performance are visible in the same decision.
+          </p>
+          <p>
+            The project is intentionally a proof-of-work rather than a national-stock model. It demonstrates the
+            methodological readiness behind an Ireland-focused decision-support workflow that can later be scaled to
+            multiple Irish dwelling archetypes and validated through dynamic EnergyPlus simulation.
+          </p>
+        </article>
+
+        <article class="card report-panel" data-reveal>
+          <span class="eyebrow">Objectives</span>
+          <h2>Technical objectives</h2>
+          <ul class="clean-list">
+            <li>Demonstrate an integrated passive-active retrofit workflow for a representative Irish dwelling.</li>
+            <li>Represent passive retrofit options and heat-pump design variables in one optimisation problem.</li>
+            <li>Quantify trade-offs between cost, emissions, annual heating demand, heat-pump electricity, seasonal COP and overheating risk.</li>
+            <li>Generate EnergyPlus-ready IDF cases for future dynamic simulation validation.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-accent">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <span class="eyebrow">Methodology</span>
+            <h2>Integrated passive-active screening workflow</h2>
+          </div>
+          <p class="section-note">The reduced-order model is used for fast screening; selected cases are exported for EnergyPlus validation.</p>
+        </div>
+        <div class="project-figures project-figures-large" data-reveal>
+          <figure>
+            <img src="../assets/projects/irish-passive-active-retrofit-pilot/figure_1_workflow.png" alt="Workflow for passive-active retrofit optimisation">
+            <figcaption>Figure 1. Proposed passive-active retrofit optimisation workflow used in the pilot.</figcaption>
+          </figure>
+          <figure>
+            <img src="../assets/projects/irish-passive-active-retrofit-pilot/figure_2_pareto.png" alt="Pareto-efficient retrofit package results">
+            <figcaption>Figure 2. Pareto-efficient retrofit packages showing cost-emissions trade-off and seasonal COP.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <span class="eyebrow">Results</span>
+            <h2>Notable optimisation outcomes</h2>
+          </div>
+          <p class="section-note">Results are screening-level estimates and should be validated with EnergyPlus and Irish BER/DEAP or monitored dwelling evidence before formal use.</p>
+        </div>
+        <div class="result-table-wrap card" data-reveal>
+          <table class="result-table">
+            <thead>
+              <tr>
+                <th>Criterion</th>
+                <th>Scenario</th>
+                <th>Emissions</th>
+                <th>Cost</th>
+                <th>Heating</th>
+                <th>HP electricity</th>
+                <th>COP</th>
+                <th>Overheating</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Lowest emissions</td>
+                <td>S46585</td>
+                <td>390.3 kgCO<sub>2</sub>/y</td>
+                <td>EUR 75,000</td>
+                <td>6,290.8 kWh/y</td>
+                <td>1,318.5 kWh/y</td>
+                <td>4.77</td>
+                <td>176.5 h/y</td>
+              </tr>
+              <tr>
+                <td>Lowest cost</td>
+                <td>S00004</td>
+                <td>2,819.9 kgCO<sub>2</sub>/y</td>
+                <td>EUR 8,500</td>
+                <td>24,753.6 kWh/y</td>
+                <td>9,526.8 kWh/y</td>
+                <td>2.73</td>
+                <td>79.5 h/y</td>
+              </tr>
+              <tr>
+                <td>Highest COP</td>
+                <td>S00025</td>
+                <td>1,710.7 kgCO<sub>2</sub>/y</td>
+                <td>EUR 25,500</td>
+                <td>24,753.6 kWh/y</td>
+                <td>5,779.4 kWh/y</td>
+                <td>4.77</td>
+                <td>79.5 h/y</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-accent">
+      <div class="container report-grid">
+        <article class="card report-panel" data-reveal>
+          <span class="eyebrow">Interpretation</span>
+          <h2>What the pilot shows</h2>
+          <p>
+            The lowest-emissions pathway combines deep envelope upgrades, low-temperature emitters, improved
+            ventilation and high-COP heat-pump operation, but it also raises an overheating-risk signal. The lowest-cost
+            pathway is technically simple but leaves higher electricity use and poorer COP. This supports the fellowship
+            argument that heat-pump readiness should be judged as a combined package problem, not only as an equipment
+            replacement.
+          </p>
+        </article>
+        <article class="card report-panel" data-reveal>
+          <span class="eyebrow">Next step</span>
+          <h2>Route to fellowship-scale research</h2>
+          <p>
+            The next technical step is to replace the screening assumptions with calibrated Irish archetypes, simulate
+            selected Pareto packages in EnergyPlus using Irish weather files, and train a physics-informed surrogate
+            model for fast optimisation across multiple representative Irish dwelling typologies.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span data-year></span> Muhammad Reshaeel, PhD. Built for GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
